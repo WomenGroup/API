@@ -1,0 +1,164 @@
+.button 
+  {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+.button1 
+  {
+    background-color: #212121; 
+    color: rgb(255, 255, 255); 
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+
+.button1:hover
+  {
+    background-color: #8a8a8a;
+    color: rgb(0, 0, 0);
+  }
+  
+
+.header
+  {
+    background-color: #212121;
+    border-radius: 12px;
+    text-align: center;
+    width: 1850x;
+    height: 80px;
+    position: relative;
+  }
+ 
+/*LINK BOTÃO*/
+  a:link 
+    {
+      color: #8a8a8a;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+  a:hover 
+    {
+      color: #000000;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+  a:visited 
+    {
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      text-decoration: none;
+    } 
+
+ 
+  a:active 
+    {
+      color: rgb(0, 0, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+/*LINK BOTÃO*/
+
+
+/*MARGEM PÁGINA*/
+.mar
+  {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+
+/*TÍTULOS PRINCIPAL*/
+.fundo1
+{
+    background-color: #212121;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 450px;
+    height: max-content;
+    text-align: center;
+}
+
+/*SUB TÍTULOS*/
+.fundo2
+{
+  background-color: #212121;
+  color:rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 160px;
+  height: max-content;
+  text-align: center;
+}
+
+
+/*RETÂNGULO CINZA*/
+div.ex{
+  width:97%;
+  padding:5px;
+  background-color: rgb(230, 223, 223);
+  margin-top: 0;
+  border-radius: 10px;
+  }
+
+
+/*LINK TEXTO*/
+.acesse a:link 
+  {
+    color: #212121;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+  
+/*---CÓDIGOS NÃO UTILIZADOS----*/
+
+
+  /*  .button2 {
+    background-color: #212121; 
+    color: rgb(255, 255, 255); 
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .button2:hover {
+    background-color: #8a8a8a;
+    color: rgb(0, 0, 0);
+  }
+  
+  .button3 {
+    background-color: #212121; 
+    color: rgb(255, 255, 255); 
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .button3:hover {
+    background-color: #8a8a8a;
+    color: rgb(0, 0, 0);
+  }
+
+
+    .dropbtn {
+        background-color: #212121;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+
+  */
