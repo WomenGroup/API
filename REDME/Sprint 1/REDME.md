@@ -1,9 +1,9 @@
 <H1>Sprint Backlog </H1>
-![Detalhes sprint 1](https://user-images.githubusercontent.com/102235459/163423937-e99f9116-62dc-490d-bb40-df3792472cf4.png)
-
-<H1>BURNDOWN da Equipe </H1>
-![Burndown](https://user-images.githubusercontent.com/102235459/163423983-0dc15697-9ccc-42bb-ab33-3722a9c08ae2.png)
 
 
-<H1> Funcionalidade do Site </h1>
+![Detalhes sprint 1](https://user-images.githubusercontent.com/102235459/163424071-74a369c0-4d10-4749-9e55-7b1e393305e9.png)
+
+<h1> BURNDOWN da Equipe </h1>
+
+![Burndown](https://user-images.githubusercontent.com/102235459/163424190-321fc0c5-8c21-4c59-9000-1daf49a4fc17.png)
 
