@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CURSOS TI</title>
+    <link rel="stylesheet" href="CSS_Cursos TI.css">
+</head>
+<body>
+
+  <!-- MENU -->
+<div class="navbar">
+  <a href="1 Home.html" >Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Vagas de Emprego <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="2 Vagasti.html">Área de TI</a>
+        <a href="3 Vagasgerais.html">Áreas Gerais</a>
+      </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Cursos e Certificações <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="4 Cursos Ti.html">Área de TI</a>
+        <a href="5 Cursos Gerais.html">Áreas Gerais</a>
+      </div>
+  </div> 
+  <a href="6 Metricas.html">Métricas</a>
+  <a href="7 Localização.html">Localização</a>
+</div> 
+
+
+<!-- TÍTULO DA PÁG-->
+<div class="h1"> CURSOS E CERTIFICAÇÕES NA ÁREA DE TI</div>
+
+<!-- VAGAS-->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, '1')" id="defaultOpen">Curso de Excel</button>
+  <button class="tablinks" onclick="openCity(event, '2')">Curso de Excel Avançado</button>
+  <button class="tablinks" onclick="openCity(event, '3')">Curso de Informática Online</button>
+  <button class="tablinks" onclick="openCity(event, '4')">Curso de Python Básico</button>
+</div>
+<div class="vl"></div>
+<!-- 1 VAGA -->
+<div id="1" class="tabcontent">
+  <h3>Curso de Excel</h3>
+  <p> 
+  O nosso Curso de Excel é Grátis, Online e conta com *Certificado opcional válido em todo Brasil.<br>
+  Duração: 60 Horas <br>
+  Certificado: R$49,90<br>
+  </p>
+</div>
+<!-- 2 VAGA -->
+<div id="2" class="tabcontent">
+  <h3>Curso de Excel Avançado</h3>
+  <p>O nosso Curso de Excel é Grátis, Online e conta com *Certificado opcional válido em todo Brasil.<br>
+  Duração: 60 Horas <br>
+  Certificado: R$49,90<br></p> 
+</div> 
+
+<div id="3" class="tabcontent">
+  <h3>Curso de Informática Online</h3>
+  <p>Hoje em dia, ter um curso de informática básica   é um item essencial para quem está desempregada(o) e precisa se qualificar para o mercado de trabalho, se não, um pré-requisito obrigatório tanto para contratação, quanto para permanência no cargo, e naturalmente, para sua evolução profissional.<br>
+  Duração: 20 Horas <br>
+  Certificado: R$49,90<br></p> 
+</div> 
+
+<div id="4" class="tabcontent">
+  <h3>Curso de Python Básico</h3>
+  <p>O nosso Curso de Python Básico é Grátis, Online e conta com *Certificado opcional válido em todo Brasil.<br>
+  Duração: 30 Horas <br>
+  Certificado: R$49,90<br></p>
+</div> 
+  
+<!-- FUNÇÃO BOTÃO DAS VAGAS-->
+<script>
+  function openCity(evt, cityName) 
+  {
+    var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) 
+      {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++)  
+        {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+      document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  document.getElementById("defaultOpen").click();
+</script>
+  
+  
+<!-- RODAPÉ -->
+<div class="footer">
+  <a href=" ">Facebook</a>
+  <a href="">Instagram</a>
+  <a href="">GitHub</a>
+</div>
+
+
+<!-- BOTÃO JAVA, SOBE PRO MENU -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+<script>
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() 
+  {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+    {
+      mybutton.style.display = "block";
+    } 
+    else 
+    {
+      mybutton.style.display = "none";
+    }
+  }
+  function topFunction() 
+  {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+  }
+  </script>
+  
+</body>
+</html>

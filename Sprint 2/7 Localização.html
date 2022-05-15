@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localização</title>
+    <link rel="stylesheet" href="CSS_Home.css">
+</head>
+<body>
+  
+<!-- MENU -->
+<div class="navbar">
+<a href="1 Home.html" >Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Vagas de Emprego <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="2 Vagasti.html">Área de TI</a>
+        <a href="3 Vagasgerais.html">Áreas Gerais</a>
+      </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Cursos e Certificações <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="4 Cursos Ti.html">Área de TI</a>
+        <a href="5 Cursos Gerais.html">Áreas Gerais</a>
+      </div>
+  </div> 
+  <a href="6 Metricas.html">Métricas</a>
+  <a href="7 Localização.html" class="active" >Localização</a>
+</div>  
+
+<div class="row">
+  <div class="column">
+    <div class="gifMargi">
+      <img src="Imagens/procurar.gif" alt="Ti" style="height: 500px;">
+    </div>
+  </div>
+  <div class="container">
+    <img src="Imagens/Fundo1.png" alt="Snow" style="width:100%;">
+    <div class="centered">
+      <h1 style="color:#fff">SÃO JOSÉ DOS CAMPOS</h1>
+    </div>
+    <div class="centeredb">
+      <button class="btn">
+        <a href="8 PagSepCURSOS.html" style="text-decoration:none; color:#000; font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+        CURSOS</a>
+      </button>
+      <button class="btn">
+        <a href="9 PagSepVAGAS.html" style="text-decoration:none; color:#000; font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+        VAGAS</a>
+      </button>
+    </div>
+  </div>
+</div>  
+      
+<div class="row">
+  <div class="container">
+    <h1 style="margin-left: 35%; color: #000">PESQUISE A SUA LOCALIZAÇÃO</h1>
+      <div class="MapaG">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467688.89495119266!2d-46.
+        5952992!3d-23.6824124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x
+        9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1651835827321!5m2!1spt-BR!2sbr" 
+        width="1000" height="500" style="border:0; margin-left: 17%; margin-bottom: 8%; " allowfullscreen="" loading="lazy" referrerpolicy="no-
+        referrer-when-downgrade"></iframe>
+      </div>
+  </div>
+</div>
+
+<!-- BOTÃO JAVA, SOBE PRO MENU -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+  <script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() 
+  {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+      {
+      mybutton.style.display = "block";
+      } 
+    else 
+      {
+        mybutton.style.display = "none";
+      }
+  }
+    function topFunction() 
+    {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+</script>       
+             
+<!-- RODAPÉ -->
+<div class="footer">
+  <a href=" ">Facebook</a>
+  <a href="">Instagram</a>
+  <a href="">GitHub</a>
+</div>
+
+</body>
+</html>

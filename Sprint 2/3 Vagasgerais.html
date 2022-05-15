@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VAGAS GERAIS</title>
+    <link rel="stylesheet" href="CSS_Vagas g.css">
+</head>
+
+
+  <!-- MENU -->
+  <div class="navbar">
+    <a href="1 Home.html" >Home</a>
+    <div class="subnav">
+      <button class="subnavbtn">Vagas de Emprego <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="2 Vagasti.html">Área de TI</a>
+          <a href="3 Vagasgerais.html">Áreas Gerais</a>
+        </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Cursos e Certificações <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="4 Cursos Ti.html">Área de TI</a>
+          <a href="5 Cursos Gerais.html">Áreas Gerais</a>
+        </div>
+    </div> 
+    <a href="6 Metricas.html">Métricas</a>
+    <a href="7 Localização.html">Localização</a>
+  </div> 
+  
+  <!-- TÍTULO DA PÁG-->
+  <div class="h1"> VAGAS DE EMPREGO EM DIVERSAS ÁREAS</div>
+  
+  <!-- VAGAS-->
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, '1')" id="defaultOpen">Vaga de Motoboy</button>
+    <button class="tablinks" onclick="openCity(event, '2')">Vaga de Estagiário</button>
+    <button class="tablinks" onclick="openCity(event, '3')">Vaga de Repositor de Mercadorias</button>
+    <button class="tablinks" onclick="openCity(event, '4')">Vaga de Confeiteiro</button>
+
+  </div>
+<div class="vl"></div>
+  <!-- 1 VAGA -->
+<div id="1" class="tabcontent">
+  <h3>Vaga de Motoboy em Campinas/SP</h3>
+  <p> 
+  Localização:  Campinas / SP<br>
+  Salário:  a combinar<br>
+  Empresa:  Confidencial <br>
+  Descrição Geral<br>
+  Empresa localizada na cidade de Campinas/SP do ramo Administrativo, contrata Motoboy.<br>
+  Atribuições<br>
+  -entrega num raio de 2,5 a 3,0 km -idade será um diferencial -fornecemos o porta galão na moto requisitos: #8211 conhecer centro e imediações #8211 #8211 sem vícios #8211 que queira somar com a empresa (informação confidencial) -ção mei -ajuda de custo refeição/transporte #8211 pagamento por entrega.
+  </p>
+</div>
+<!-- 2 VAGA -->
+<div id="2" class="tabcontent">
+  <h3>Vaga de Estagiário em Porto Velho/RO</h3>
+  <p>Localização: Porto Velho / RO<br>
+  Salário: R$ 1.045,00<br>
+  Empresa: Confidencial<br>
+  Descrição Geral<br>
+  Empresa localizada na cidade de Porto Velho/RO do ramo Administrativo, contrata Estagiário.<br>
+  Atribuições<br>
+  Empresa dplaw (informação confidencial)email confidencial) cadastrado em .
+  </p> 
+</div> 
+    
+<div id="3" class="tabcontent">
+  <h3>Vaga de Repositor de Mercadorias em Porto Velho/RO</h3>
+  <p> Localização:  Porto Velho / RO<br>
+  Salário:  a combinar<br>
+  Empresa:  Confidencial <br>
+  Descrição Geral<br>
+  Empresa localizada na cidade de Porto Velho/RO do ramo Comércio, contrata Repositor de Mercadorias.<br>
+  Atribuições<br>
+  Empresa super norte supermercado endereço rua caetano donizete bairro aponiã cidade porto estado ro (informação confidencial)email confidencial) cadastrado em .</p>
+</div> 
+
+<div id="4" class="tabcontent">
+  <h3>Vaga de Repositor de Mercadorias em Porto Velho/RO</h3>
+  <p> Localização:  Porto Alegre / RS<br>
+  Salário:  R$ 1.600,00 a R$ 2.000,00<br>
+  Empresa:  Confidencial <br>
+  Descrição Geral<br>
+  Empresa localizada na cidade de Porto Alegre/RS do ramo Alimentos, contrata Confeiteiro.<br>
+  Atribuições<br>
+  Experiência mínimode preferência com comprovação de cursos realizados produção dos doces bolos, tortas e doces finos controle de mantimentos e estoque criatividade, disponibilidade e vontade de crescer
+</p></div>
+  <!-- FUNÇÃO BOTÃO DAS VAGAS-->
+  <script>
+    function openCity(evt, cityName) 
+    {
+      var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) 
+        {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++)  
+          {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+  
+        document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpen").click();
+  </script>
+  
+  
+   <!-- RODAPÉ -->
+  <div class="footer">
+    <a href=" ">Facebook</a>
+    <a href="">Instagram</a>
+    <a href="">GitHub</a>
+  </div>
+  
+  
+  <!-- BOTÃO JAVA, SOBE PRO MENU -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+  <script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() 
+    {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+      {
+        mybutton.style.display = "block";
+      } 
+      else 
+      {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() 
+    {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+</script>
+</body>
+</html>

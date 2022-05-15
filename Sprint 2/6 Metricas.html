@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÉTRICAS</title>
+    <link rel="stylesheet" href="CSS_Métricas.css">
+
+
+</head>
+
+<body>
+
+<!-- MENU -->
+<div class="navbar">
+  <a href="1 Home.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Vagas de Emprego <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="2 Vagasti.html">Área de TI</a>
+      <a href="3 Vagasgerais.html">Áreas Gerais</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Cursos e Certificações <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="4 Cursos Ti.html">Área de TI</a>
+      <a href="5 Cursos Gerais.html">Áreas Gerais</a>
+    </div>
+  </div>
+  <a href="6 Metricas.html" class="active">Métricas</a>
+  <a href="7 Localização.html">Localização</a>
+</div> 
+
+<!-- TÍTULO DA PÁG -->
+<div class="h1"> MÉTRICAS DA ÁREA DE TI </div>
+
+<!-- CONFIG. DA PÁG -->
+<div class="row">
+  <div class="column">
+    <img src="Imagens/info.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<!-- SLIDES -->
+<div id="myModal" class="modal">
+<!-- BOTÃO QUE MUDA -->
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Imagens/Dados TI.png" style="width:60%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Imagens/Grafico.png" style="width:60%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Imagens/graficoGenerico.jpg" style="width:60%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Imagens/grafico bonito.webp" style="width:60%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/Dados TI.png" style="width:100%" onclick="currentSlide(1)" alt="DADOS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/Grafico.png" style="width:100%" onclick="currentSlide(2)" alt="DADOS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/graficoGenerico.jpg" style="width:100%" onclick="currentSlide(3)" alt="DADOS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/grafico bonito.webp" style="width:100%" onclick="currentSlide(4)" alt="DADOS">
+    </div>
+  </div> 
+</div> 
+
+<!-- BOTÃO DOS SLIDES-->
+<script>
+  function openModal() 
+  {
+    document.getElementById("myModal").style.display = "block";
+  }
+  function closeModal() 
+  {
+    document.getElementById("myModal").style.display = "none";
+  }
+  var slideIndex = 1;
+    showSlides(slideIndex);
+  function plusSlides(n) 
+  {
+    showSlides(slideIndex += n);
+  }
+  function currentSlide(n) 
+  {
+    showSlides(slideIndex = n);
+  }
+  function showSlides(n) 
+  {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) 
+      {
+      slides[i].style.display = "none";
+      }
+    for (i = 0; i < dots.length; i++) 
+      {
+      dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+
+
+<!-- TÍTULO DA PÁG -->
+<div class="h1"> MÉTRICAS GERAIS</div>
+
+<!-- CONFIG. DA PÁG -->
+<div class="row">
+  <div class="column">
+    <img src="Imagens/info.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<!-- SLIDES -->
+<div id="myModal" class="modal">
+<!-- BOTÃO QUE MUDA -->
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Imagens/Dados TI.png" style="width:60%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Imagens/Grafico.png" style="width:60%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Imagens/graficoGenerico.jpg" style="width:60%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Imagens/grafico bonito.webp" style="width:60%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/Dados TI.png" style="width:100%" onclick="currentSlide(1)" alt="DADOS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/Grafico.png" style="width:100%" onclick="currentSlide(2)" alt="DADOS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/graficoGenerico.jpg" style="width:100%" onclick="currentSlide(3)" alt="DADOS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imagens/grafico bonito.webp" style="width:100%" onclick="currentSlide(4)" alt="DADOS">
+    </div>
+  </div> 
+</div> 
+
+<!-- BOTÃO DOS SLIDES-->
+<script>
+  function openModal() 
+  {
+    document.getElementById("myModal").style.display = "block";
+  }
+  function closeModal() 
+  {
+    document.getElementById("myModal").style.display = "none";
+  }
+  var slideIndex = 1;
+    showSlides(slideIndex);
+  function plusSlides(n) 
+  {
+    showSlides(slideIndex += n);
+  }
+  function currentSlide(n) 
+  {
+    showSlides(slideIndex = n);
+  }
+  function showSlides(n) 
+  {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) 
+      {
+      slides[i].style.display = "none";
+      }
+    for (i = 0; i < dots.length; i++) 
+      {
+      dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+
+
+  <!--BOTÃO JAVA-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+  <script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() 
+    {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0; 
+    }
+  </script>
+  
+  <!-- RODAPÉ -->
+  <div class="footer">
+    <a href=" ">Facebook</a>
+    <a href="">Instagram</a>
+    <a href="">GitHub</a>
+  </div>
+
+</body>
+</html>

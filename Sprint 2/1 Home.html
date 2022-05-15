@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS_Home.css">
+  </head>
+
+<body>
+
+<!-- MENU -->
+<div class="navbar">
+  <a href="1 Home.html" class="active">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Vagas de Emprego <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="2 Vagasti.html">Área de TI</a>
+        <a href="3 Vagasgerais.html">Áreas Gerais</a>
+      </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Cursos e Certificações <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="4 Cursos Ti.html">Área de TI</a>
+        <a href="5 Cursos Gerais.html">Áreas Gerais</a>
+      </div>
+  </div>
+  <a href="6 Metricas.html">Métricas</a>
+  <a href="7 Localização.html">Localização</a>
+</div> 
+
+<!-- 1 POSIÇÃO ENTRE GIF, IMAGEM, TEXTO E BOTÃO -->
+<div class="row">
+<!-- GIF 1 -->
+  <div class="column">
+    <div class="gifMargi">
+      <img src="Imagens/hacker.gif" alt="Ti" style="height: 500px;">
+    </div>
+  </div>
+<!-- ALINHAMENTO -->  
+  <div class="container">
+<!-- IMAGEM 1 -->  
+  <img src="Imagens/Fundo1.png" alt="Snow" style="width:100%;">
+<!-- TEXTO 1 -->
+    <div class="centered">
+      <h1>VAGAS NA ÁREA DE TI</h1>
+    </div>
+<!-- BOTÃO 1 -->
+    <div class="centeredb">
+      <button class="btn">
+        <a href="2 Vagasti.html" style="text-decoration:none; color:#000; font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;"> CONFIRA AQUI!</a>
+      </button>
+    </div>
+  </div> <!-- </DIV> DO CONTAINER -->
+</div> <!-- </DIV> DO ROW -->
+<!-- 2 POSIÇÃO ENTRE GIF, IMAGEM, TEXTO E BOTÃO -->
+<div class="row">
+  <div class="column">
+    <div class="gifMargi">
+      <img src="Imagens/briefcase.gif" alt="Ti" style="height: 500px;">
+    </div>
+  </div>
+  <div class="container">
+    <img src="Imagens/Fundo1.png" alt="Snow" style="width:100%;">
+    <div class="centered">
+      <h1>VAGAS GERAIS</h1>
+    </div>
+    <div class="centeredb">
+      <button class="btn">
+        <a href="3 Vagasgerais.html" style="text-decoration:none; color:#000; font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+        CONFIRA AQUI!</a>
+        </button>
+    </div>
+  </div> 
+</div> 
+<!-- 3 POSIÇÃO ENTRE GIF, IMAGEM, TEXTO E BOTÃO -->
+  <div class="row">
+  <div class="column">
+    <div class="gifMargi">
+      <img src="Imagens//diploma.gif" alt="Ti" style="height: 500px;">
+    </div>
+  </div>
+  <div class="container">
+    <img src="Imagens/Fundo1.png" alt="Snow" style="width:100%;">
+    <div class="centered">
+      <h1>CURSOS E CERTIFICAÇÃOES</h1>
+    </div>
+    <div class="centeredb">
+      <button class="btn">
+        <a href="4 Cursos Ti.html" style="text-decoration:none; color:#000; font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+        ÁREA DE TI</a>
+      </button>
+      <button class="btn">
+        <a href="5 Cursos Gerais.html" style="text-decoration:none; color:#000; font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+        ÁREAS EM GERAL</a>
+      </button>
+    </div>
+  </div>
+</div>
+
+ <!-- RODAPÉ -->
+ <div class="footer">
+  <a href=" ">Facebook</a>
+  <a href="">Instagram</a>
+  <a href="">GitHub</a>
+</div>
+
+<!-- BOTÃO JAVA, SOBE PRO MENU -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+<!-- FUNÇÃO DO BOTÃO -->
+  <script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() 
+  {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+      {
+      mybutton.style.display = "block";
+      } 
+    else 
+      {
+        mybutton.style.display = "none";
+      }
+  }
+    function topFunction() 
+    {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+</script>
+</body>
+</html>
+
