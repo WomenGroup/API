@@ -58,7 +58,8 @@ Página de Localização;
   
   <h1> BACKLOG do Produto </h1>
   
-  ![Backlog do Produto](https://user-images.githubusercontent.com/102235459/163421038-ac4e6f9a-e1e9-499f-ae49-2c11e3ff7364.png)
+![Backlog do Produto](https://user-images.githubusercontent.com/102235459/168493461-8fd2b38a-0eb3-41fd-8267-90e51afdd0bb.png)
+
   
   <h1> Equipe </h1>
   
