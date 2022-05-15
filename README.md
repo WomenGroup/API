@@ -1,23 +1,24 @@
 <h1>SITE PRONTO<h1>
+  
+<h1> Funcionalidade da Home </h1>
 
-![Funcionalidade Home](https://user-images.githubusercontent.com/102235459/163428847-e8bb96ce-8fd2-4aaf-a617-be0d056ffa92.gif)
+![Home](https://user-images.githubusercontent.com/102235459/168481099-8632c67a-c536-448c-983b-d596f2e0e432.gif)
 
 <h1> Funcionalidade das Vagas </h1>
-
-![Funcionalidade Vagas](https://user-images.githubusercontent.com/102235459/163428985-371dea67-519f-4c1a-8e55-57dacb528d25.gif)
+  
+![Vagas](https://user-images.githubusercontent.com/102235459/168481088-5317e664-aef1-4fc6-b163-12f0b2e59845.gif)
 
 <h1> Funcionalidade dos Cursos </h1>
-
-![Funcionalidade Cursos](https://user-images.githubusercontent.com/102235459/163429191-6de6b9fa-1261-4ac6-9787-29a0602c1d63.gif)
-
-
+  
+![Cursos](https://user-images.githubusercontent.com/102235459/168481148-57ca2334-728b-4fce-a7d5-e89b8058ad32.gif)
+ 
 <h1> Funcionalidade das Metricas </h1>
-
-![Funcionalidade Metricas](https://user-images.githubusercontent.com/102235459/163429249-62c75143-cae4-4c17-8cb1-be3a0819c1f1.gif)
+  
+![Métricas](https://user-images.githubusercontent.com/102235459/168481155-8feca5c4-dadc-4ba5-bcbe-e120472a6f30.gif)
 
 <h1> Funcionalidade de Localizaçao </h1>
-
-![Funcionalidade Localizaçao](https://user-images.githubusercontent.com/102235459/163429341-796052b4-1f28-4d4f-93a5-95f3f66d2eb1.gif)
+  
+![Localização](https://user-images.githubusercontent.com/102235459/168481165-735bcc45-ee13-410b-8da6-ba434a802964.gif)
 
 
 
