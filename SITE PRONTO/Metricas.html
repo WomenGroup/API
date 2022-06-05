@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÉTRICAS</title>
+    <link rel="stylesheet" href="css/CSS_Métricas.css">
+
+
+</head>
+
+<body>
+
+<!-- MENU -->
+  <div class="navbar">
+    <a href="Home.html">Home</a>
+    <div class="subnav">
+      <button class="subnavbtn">Vagas de Emprego <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="VagasTi.php">Área de TI</a>
+        <a href="Vagas.php">Áreas Gerais</a>
+      </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Cursos e Certificações <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="Cursosti.php">Área de TI</a>
+        <a href="Cursos.php">Áreas Gerais</a>
+      </div>
+    </div>
+    <a href="Metricas.html" class="active">Métricas</a>
+    <a href="Localização.php">Localização</a>
+  </div> 
+
+<!-- TÍTULO DA PÁG -->
+<div class="h1"> MÉTRICAS GERAIS</div>
+
+<!-- CONFIG. DA PÁG -->
+<div class="row" style="margin-left: 10%">
+  <div class="column">
+    <img src="Imagens/QtdVagas.jpeg" style="width: 80%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Imagens/TiposCursos.jpeg" style="width:80%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div class="h1"> REGIÕES DAS VAGAS</div>
+
+<!-- CONFIG. DA PÁG -->
+<div class="row" style="margin-left: 10%">
+  <div class="column">
+    <img src="Imagens/RegiõesVagas.jpeg" style="width: 80%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="Imagens/RegiõesVagasTI.jpeg" style="width:80%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+</div>
+
+
+
+
+  <!--BOTÃO JAVA-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">⬆︎</button>
+  <script>
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() 
+    {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0; 
+    }
+  </script>
+  
+  <!-- RODAPÉ -->
+  <div class="footer">
+    <a href=" ">Facebook</a>
+    <a href="">Instagram</a>
+    <a href="https://github.com/WomenGroup">GitHub</a>
+  </div>
+
+</body>
+</html>
