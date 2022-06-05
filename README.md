@@ -2,23 +2,23 @@
   
 <h1> Funcionalidade da Home </h1>
 
-![Home](https://user-images.githubusercontent.com/102235459/168481099-8632c67a-c536-448c-983b-d596f2e0e432.gif)
+![Home1](https://user-images.githubusercontent.com/100849359/172060844-e01a5767-ed41-46ba-90f4-32270e1b5a77.gif)
 
 <h1> Funcionalidade das Vagas </h1>
   
-![Vagas](https://user-images.githubusercontent.com/102235459/168481088-5317e664-aef1-4fc6-b163-12f0b2e59845.gif)
+![Vagas1](https://user-images.githubusercontent.com/100849359/172060856-b40b4308-8df8-4aee-bf47-a18cb58d6d8e.gif)
 
 <h1> Funcionalidade dos Cursos </h1>
   
-![Cursos](https://user-images.githubusercontent.com/102235459/168481148-57ca2334-728b-4fce-a7d5-e89b8058ad32.gif)
+![Cursosq](https://user-images.githubusercontent.com/100849359/172060863-0a367980-76e4-49b9-b130-706e255ce7c2.gif)
  
 <h1> Funcionalidade das Metricas </h1>
   
-![Métricas](https://user-images.githubusercontent.com/102235459/168481155-8feca5c4-dadc-4ba5-bcbe-e120472a6f30.gif)
+![Localizacao1](https://user-images.githubusercontent.com/100849359/172060879-ffa68c6f-7a9e-49dd-a38f-af152e2c2c21.gif)
 
 <h1> Funcionalidade de Localizaçao </h1>
   
-![Localização](https://user-images.githubusercontent.com/102235459/168481165-735bcc45-ee13-410b-8da6-ba434a802964.gif)
+
 
 
 
@@ -53,19 +53,25 @@ Página de Localização;
   <h1> 💡 Metodologia Utilizada </h1>
   
   
-  ![Metodologia](https://user-images.githubusercontent.com/102235459/163420835-5978259b-4a69-407f-bd59-3c7d6414d679.png)
+  ![Metodologia]
+  
+ (https://user-images.githubusercontent.com/102235459/163420835-5978259b-4a69-407f-bd59-3c7d6414d679.png)
 <br>
   
   <h1> BACKLOG do Produto </h1>
   
-![Backlog do Produto](https://user-images.githubusercontent.com/102235459/168493461-8fd2b38a-0eb3-41fd-8267-90e51afdd0bb.png)
+![Backlog do Produto](https://user-images.githubusercontent.com/100849359/172060935-d8d7a303-20ca-457f-b509-115dfa72c890.png)
+  
+<h1> Tecnologias Utilizadas</h1>
+  
+![Tecnologias](https://user-images.githubusercontent.com/100849359/172060973-4ee43889-c045-48ca-aa95-04c6f0f6b635.png)
 
   
-  <h1> Equipe </h1>
-  
+<h1> Equipe </h1>
+ 
 
-  ![Equipe](https://user-images.githubusercontent.com/102235459/163421166-c8cd67eb-6438-4c00-87c2-c0f281b3230b.png)
 
+![Equipe](https://user-images.githubusercontent.com/100849359/172060939-33264039-c735-4edf-9231-92415129c8c6.png)
 
 
 
