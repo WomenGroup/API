@@ -14,9 +14,13 @@
  
 <h1> Funcionalidade das Metricas </h1>
   
-![Localizacao1](https://user-images.githubusercontent.com/100849359/172060879-ffa68c6f-7a9e-49dd-a38f-af152e2c2c21.gif)
+![Metricas](https://user-images.githubusercontent.com/100849359/172064402-4443fe7e-b84e-432e-8308-e2925bc4a040.gif)
+
 
 <h1> Funcionalidade de Localizaçao </h1>
+  
+  ![Localizacao1](https://user-images.githubusercontent.com/100849359/172064408-9c6f3a59-6daa-4d5f-8ade-d7ee1836f20c.gif)
+
   
 
 
